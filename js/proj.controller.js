@@ -11,7 +11,7 @@ function renderProjs() {
   var projs = getProjects()
   var strHtml = ''
   projs.map((proj) => {
-    strHtml += `<div id="${proj.id}" class="col-md-4 col-sm-6 portfolio-item">
+    strHtml += `<div id="${proj.id}" class="col-md-3 col-sm-6 portfolio-item">
         <a  class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
         <div class="portfolio-hover">
         <div class="portfolio-hover-content">
