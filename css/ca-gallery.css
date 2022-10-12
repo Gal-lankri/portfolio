@@ -6,6 +6,7 @@ body {
 p {
     line-height: 1.75;
 }
+
 a {
     color: #fed136;
 }
@@ -91,7 +92,7 @@ body {
     text-align: center;
     font-weight: bold;
     height: 100%;
-    background: rgba(56, 255, 255, 0.795);
+    background: rgba(29, 97, 153, 0.904);
     width: 80vw;
     right: -80vw;
     z-index: 10;
@@ -261,6 +262,7 @@ header.masthead .intro-text .intro-heading {
 #portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;
+    
 }
 #portfolio .portfolio-item .portfolio-link {
     position: relative;
@@ -324,6 +326,7 @@ header.masthead .intro-text .intro-heading {
         margin: 0 0 30px;
     }
 }
+
 .portfolio-modal .modal-dialog {
     max-width: none;
     height: 100%;
